@@ -1,0 +1,31 @@
+{
+  "navbar": {
+    "home": "Home",
+    "collection": "Collection",
+    "about": "About Us",
+    "contact": "Contacts"
+  },
+  "main": {
+    "heading": {
+      "p1": "Environmental",
+      "p2": "Clean Sleep",
+      "p3": "Products"
+    },
+    "delivery": {
+      "title": "Free Shipping",
+      "desc": "Free shipping on all orders"
+    },
+    "guarant": {
+      "title": "Return Guarantee",
+      "desc": "30 days refund"
+    },
+    "support": {
+      "title": "24/7 online support",
+      "desc": "24/7 technical support"
+    },
+    "payment": {
+      "title": "Secure Payment",
+      "desc": "All payment methods accepted"
+    }
+  }
+}

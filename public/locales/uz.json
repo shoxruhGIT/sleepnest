@@ -1,0 +1,31 @@
+{
+  "navbar": {
+    "home": "Bosh Sahifa",
+    "collection": "To'plam",
+    "about": "Biz haqimizda",
+    "contact": "Kontaktlar"
+  },
+  "main": {
+    "heading": {
+      "p1": "Ekologik",
+      "p2": "Toza Uyqu",
+      "p3": "Mahsulotlari"
+    },
+    "delivery": {
+      "title": "Yetkazib berish bepul",
+      "desc": "Barcha buyurtmalar uchun bepul yetkazib berish"
+    },
+    "guarant": {
+      "title": "Qaytish kafolati",
+      "desc": "30 kunlik pulni qaytarish"
+    },
+    "support": {
+      "title": "24/7 onlayn qo'llab-quvvatlash",
+      "desc": "24/7 texnik yordam"
+    },
+    "payment": {
+      "title": "Xavfsiz to'lov",
+      "desc": "Barcha to'lov usullari qabul qilinadi"
+    }
+  }
+}
