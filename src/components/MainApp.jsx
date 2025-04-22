@@ -45,7 +45,7 @@ const MainApp = () => {
       </div>
 
       <div className="mt-32 text-center mb-32">
-        <h1 className="text-[35px] font-bold">Qish kolleksiyasi</h1>
+        <h1 className="text-[35px] font-bold">Qishgi kolleksiyasi</h1>
         <p>Ekologik Toza Uyqu Mahsulotlari</p>
       </div>
 
@@ -89,7 +89,7 @@ const MainApp = () => {
       </div>
 
       <div className="mt-32 text-center mb-32">
-        <h1 className="text-[35px] font-bold">Kuz kolleksiyasi</h1>
+        <h1 className="text-[35px] font-bold">Kuzgi kolleksiyasi</h1>
         <p>Ekologik Toza Uyqu Mahsulotlari</p>
       </div>
 
@@ -133,7 +133,7 @@ const MainApp = () => {
       </div>
 
       <div className="mt-32 text-center mb-32">
-        <h1 className="text-[35px] font-bold">Kuz kolleksiyasi</h1>
+        <h1 className="text-[35px] font-bold">Yozgi kolleksiyasi</h1>
         <p>Ekologik Toza Uyqu Mahsulotlari</p>
       </div>
 

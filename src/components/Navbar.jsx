@@ -3,6 +3,7 @@ import { Logo } from "../assets";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { FaHeart } from "react-icons/fa";
+import { useWishlist } from "../hooks/useWishlist";
 
 const Navbar = () => {
   const { t, i18n } = useTranslation();
@@ -10,6 +11,8 @@ const Navbar = () => {
   const handleChangeLanguage = (e) => {
     i18n.changeLanguage(e.target.value);
   };
+
+  const { count } = useWishlist();
 
   return (
     <div className="w-full h-[80px] shadow-md flex fixed z-20 bg-white">
@@ -56,7 +59,7 @@ const Navbar = () => {
               <Link to="/wishlist" className="text-red-600 text-xl">
                 <FaHeart />{" "}
                 <span className="text-white absolute top-[-8px] right-[-10px] w-[20px] h-[15px] bg-black text-[12px] rounded-[50%] flex items-center justify-center">
-                  0
+                  {count}
                 </span>
               </Link>
             </li>

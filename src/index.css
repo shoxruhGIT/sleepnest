@@ -4,6 +4,10 @@ body {
   font-family: "Unbounded", sans-serif;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 .active {
   color: #a17f4a;
   font-weight: 500;

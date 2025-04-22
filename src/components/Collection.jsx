@@ -8,7 +8,7 @@ const Collection = () => {
     <div className="w-full">
       <div className="pt-24 w-full max-w-[1450px] m-auto px-6 flex flex-col md:flex-row md:items-start items-center justify-between">
         <div className="flex flex-col items-start gap-8">
-          <div className="w-[320px] h-[60px] bg-[#EDEDED] rounded-full flex items-center px-4 mt-32">
+          <div className="w-[320px] h-[60px] bg-[#EDEDED] rounded-full flex items-center px-4">
             <input
               type="text"
               placeholder="Qidiruv ...."
