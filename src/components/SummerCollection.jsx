@@ -2,68 +2,71 @@ import React from "react";
 import { FaRegHeart } from "react-icons/fa6";
 import { useWishlist } from "../hooks/useWishlist";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 const SummerCollection = () => {
+  const { t } = useTranslation();
+
   const summerCollection = [
     {
       id: 21,
       img: "https://www.sleepnest.uz/assets/productImg21-C-p6aOaW.jpg",
-      title: "Vintage uslubi",
-      category: "Yozgi kolleksiya"
+      title: t("summer_collection.collections.1"),
+      category: t("categories.summer"),
     },
     {
       id: 22,
       img: "https://www.sleepnest.uz/assets/productImg22-emL6vfU-.jpg",
-      title: "TK",
-      category: "Yozgi kolleksiya"
+      title: t("summer_collection.collections.2"),
+      category: t("categories.summer"),
     },
     {
       id: 23,
       img: "https://www.sleepnest.uz/assets/productImg23-CL7pBMvF.jpg",
-      title: "Fransuz Riviera",
-      category: "Yozgi kolleksiya"
+      title: t("summer_collection.collections.3"),
+      category: t("categories.summer"),
     },
     {
       id: 24,
       img: "https://www.sleepnest.uz/assets/productImg24-B1gnyX0U.jpg",
-      title: "Qo'y Dolli",
-      category: "Yozgi kolleksiya"
+      title: t("summer_collection.collections.4"),
+      category: t("categories.summer"),
     },
     {
       id: 25,
       img: "https://www.sleepnest.uz/assets/productImg25-BvXKeYJI.jpg",
-      title: "Alp tog'lari o'simliklari",
-      category: "Yozgi kolleksiya"
+      title: t("summer_collection.collections.5"),
+      category: t("categories.summer"),
     },
     {
       id: 26,
       img: "https://www.sleepnest.uz/assets/productImg26--z9MeTTg.jpg",
-      title: "Ilhomlantiruvchi",
-      category: "Yozgi kolleksiya"
+      title: t("summer_collection.collections.6"),
+      category: t("categories.summer"),
     },
     {
       id: 27,
       img: "https://www.sleepnest.uz/assets/productImg27-DsTk7fxd.jpg",
-      title: "Yashil lotus",
-      category: "Yozgi kolleksiya"
+      title: t("summer_collection.collections.7"),
+      category: t("categories.summer"),
     },
     {
       id: 28,
       img: "https://www.sleepnest.uz/assets/productImg28-DaHXHjbW.jpg",
-      title: "Tog'li makkajo'xori",
-      category: "Yozgi kolleksiya"
+      title: t("summer_collection.collections.8"),
+      category: t("categories.summer"),
     },
     {
       id: 29,
       img: "https://www.sleepnest.uz/assets/productImg29-UBLglkL9.jpg",
-      title: "Sakura filiali",
-      category: "Yozgi kolleksiya"
+      title: t("summer_collection.collections.9"),
+      category: t("categories.summer"),
     },
     {
       id: 30,
       img: "https://www.sleepnest.uz/assets/productImg30-DXgEC2ST.jpg",
-      title: "Zaytun novdasi",
-      category: "Yozgi kolleksiya"
+      title: t("summer_collection.collections.10"),
+      category: t("categories.summer"),
     },
   ];
 

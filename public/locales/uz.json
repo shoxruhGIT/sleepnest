@@ -27,5 +27,65 @@
       "title": "Xavfsiz to'lov",
       "desc": "Barcha to'lov usullari qabul qilinadi"
     }
+  },
+  "categories": {
+    "all": "Barcha kategoriyalar",
+    "winter": "Qish kolleksiyasi",
+    "autumn": "Kuz kolleksiyasi",
+    "summer": "Yoz kolleksiyasi"
+  },
+  "bg_info": {
+    "quality": "Material sifati",
+    "title": "Ekologik Toza Uyqu Mahsulotlari",
+    "desc": "ko'p yillar davomida butun dunyoda foydalanish uchun paxta matolarini ishlab chiqaradigan kompaniya bo'lib kelgan",
+    "btn": "To'plam"
+  },
+  "winter_collection": {
+    "title": "Kuz kolleksiyasi",
+    "desc": "Ekologik Toza Uyqu Mahsulotlari",
+    "collections": {
+      "1": "Kvadratchalar",
+      "2": "Ikat",
+      "3": "Davralar",
+      "4": "Geometriya ko'k",
+      "5": "Tropik barglar",
+      "6": "Bambi",
+      "7": "Vizantiya",
+      "8": "Kechki bog'",
+      "9": "Pat Markiz",
+      "10": "Lavanda atirgullari"
+    }
+  },
+  "autumn_collection": {
+    "title": "Kuz kolleksiyasi",
+    "desc": "Ekologik Toza Uyqu Mahsulotlari",
+    "collections": {
+      "1": "Safari",
+      "2": "Ko'p rangli ametist",
+      "3": "Shivali bezak",
+      "4": "Zumrad (AB)",
+      "5": "Malaxit qutisi",
+      "6": "Bahornign hidlari",
+      "7": "Kuzgi barglar tushishi (AB)",
+      "8": "Moviy shabada",
+      "9": "Moviy suv",
+      "10": "Plaid"
+    }
+  },
+  "summer_collection": {
+    "title": "Yoz kolleksiyasi",
+    "desc": "Ekologik Toza Uyqu Mahsulotlari",
+    "collections": {
+      "1": "Vintage uslubi",
+      "2": "Tebranayotgan karahindiba",
+      "3": "Fransuz Riviera",
+      "4": "Qo'y Dolli",
+      "5": "Alp tog'lari o'simliklari",
+      "6": "Ilhomlantiruvchi",
+      "7": "Yashil Lotus",
+      "8": "Tog'li makkajo'xori",
+      "9": "Sakura filiali",
+      "10": "Zaytun novdasi"
+    }
   }
 }

@@ -4,7 +4,10 @@ import WinterCollection from "./WinterCollection";
 import { DivanAutumn, DivanSummer, DivanWinter } from "../assets";
 import AutumnCollection from "./AutumnCollection";
 import SummerCollection from "./SummerCollection";
+import { useTranslation } from "react-i18next";
 const MainApp = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="w-full pt-24">
       <Main />
@@ -18,7 +21,9 @@ const MainApp = () => {
             <h1 className="text-white text-[60px] lg:text-[100px] font-bold leading-none">
               100%
             </h1>
-            <span className="text-white text-[18px] mt-2">Material sifati</span>
+            <span className="text-white text-[18px] mt-2">
+              {t("bg_info.quality")}
+            </span>
           </div>
 
           {/* Rasm */}
@@ -31,22 +36,19 @@ const MainApp = () => {
           {/* O‘ng taraf */}
           <div className="flex flex-col gap-4 max-w-[400px] text-center lg:text-left">
             <h1 className="text-white text-[24px] lg:text-[30px] font-semibold leading-tight">
-              "Ekologik Toza Uyqu Mahsulotlari"
+              {t("bg_info.title")}
             </h1>
-            <p className="text-white text-[14px]">
-              Ko‘p yillar davomida butun dunyoda foydalanish uchun paxta
-              matolarini ishlab chiqaradigan kompaniya bo‘lib kelgan
-            </p>
+            <p className="text-white text-[14px]">{t("bg_info.desc")}</p>
             <button className="w-[150px] h-[40px] bg-white text-black rounded-[15px] self-center lg:self-start">
-              To‘plam
+              {t("bg_info.btn")}
             </button>
           </div>
         </div>
       </div>
 
       <div className="mt-32 text-center mb-32">
-        <h1 className="text-[35px] font-bold">Qishgi kolleksiyasi</h1>
-        <p>Ekologik Toza Uyqu Mahsulotlari</p>
+        <h1 className="text-[35px] font-bold">{t("winter_collection.title")}</h1>
+        <p>{t("winter_collection.desc")}</p>
       </div>
 
       <WinterCollection />
@@ -62,7 +64,9 @@ const MainApp = () => {
             <h1 className="text-white text-[60px] lg:text-[100px] font-bold leading-none">
               100%
             </h1>
-            <span className="text-white text-[18px] mt-2">Material sifati</span>
+            <span className="text-white text-[18px] mt-2">
+              {t("bg_info.quality")}
+            </span>
           </div>
 
           {/* Rasm */}
@@ -75,22 +79,19 @@ const MainApp = () => {
           {/* O‘ng taraf */}
           <div className="flex flex-col gap-4 max-w-[400px] text-center lg:text-left">
             <h1 className="text-white text-[24px] lg:text-[30px] font-semibold leading-tight">
-              "Ekologik Toza Uyqu Mahsulotlari"
+              {t("bg_info.title")}
             </h1>
-            <p className="text-white text-[14px]">
-              Ko‘p yillar davomida butun dunyoda foydalanish uchun paxta
-              matolarini ishlab chiqaradigan kompaniya bo‘lib kelgan
-            </p>
+            <p className="text-white text-[14px]">{t("bg_info.desc")}</p>
             <button className="w-[150px] h-[40px] bg-white text-black rounded-[15px] self-center lg:self-start">
-              To‘plam
+              {t("bg_info.btn")}
             </button>
           </div>
         </div>
       </div>
 
       <div className="mt-32 text-center mb-32">
-        <h1 className="text-[35px] font-bold">Kuzgi kolleksiyasi</h1>
-        <p>Ekologik Toza Uyqu Mahsulotlari</p>
+        <h1 className="text-[35px] font-bold">{t("autumn_collection.title")}</h1>
+        <p>{t("autumn_collection.desc")}</p>
       </div>
 
       <AutumnCollection />
@@ -106,7 +107,7 @@ const MainApp = () => {
             <h1 className="text-white text-[60px] lg:text-[100px] font-bold leading-none">
               100%
             </h1>
-            <span className="text-white text-[18px] mt-2">Material sifati</span>
+            <span className="text-white text-[18px] mt-2">{t("bg_info.quality")}</span>
           </div>
 
           {/* Rasm */}
@@ -119,22 +120,21 @@ const MainApp = () => {
           {/* O‘ng taraf */}
           <div className="flex flex-col gap-4 max-w-[400px] text-center lg:text-left">
             <h1 className="text-white text-[24px] lg:text-[30px] font-semibold leading-tight">
-              "Ekologik Toza Uyqu Mahsulotlari"
+            {t("bg_info.title")}
             </h1>
             <p className="text-white text-[14px]">
-              Ko‘p yillar davomida butun dunyoda foydalanish uchun paxta
-              matolarini ishlab chiqaradigan kompaniya bo‘lib kelgan
+            {t("bg_info.desc")}
             </p>
             <button className="w-[150px] h-[40px] bg-white text-black rounded-[15px] self-center lg:self-start">
-              To‘plam
+            {t("bg_info.btn")}
             </button>
           </div>
         </div>
       </div>
 
       <div className="mt-32 text-center mb-32">
-        <h1 className="text-[35px] font-bold">Yozgi kolleksiyasi</h1>
-        <p>Ekologik Toza Uyqu Mahsulotlari</p>
+        <h1 className="text-[35px] font-bold">{t("summer_collection.title")}</h1>
+        <p>{t("summer_collection.desc")}</p>
       </div>
 
       <SummerCollection />

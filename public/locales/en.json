@@ -27,5 +27,65 @@
       "title": "Secure Payment",
       "desc": "All payment methods accepted"
     }
+  },
+  "categories": {
+    "all": "All categories",
+    "winter": "Winter Collection",
+    "autumn": "Autumn Collection",
+    "summer": "Summer Collection"
+  },
+  "bg_info": {
+    "quality": "Material quality",
+    "title": "Ecologically Clean Sleep Products",
+    "desc": "has been a company producing cotton fabrics for use all over the world for many years",
+    "btn": "Collection"
+  },
+  "winter_collection": {
+    "title": "Winter Collection",
+    "desc": "Ecologically Clean Sleep Products",
+    "collections": {
+      "1": "Squares",
+      "2": "Ikat",
+      "3": "Circles",
+      "4": "Geometry Blue",
+      "5": "Tropical Leaves",
+      "6": "Bambi",
+      "7": "Byzantium",
+      "8": "Evening Garden",
+      "9": "Pat Marquis",
+      "10": "Lavender Roses"
+    }
+  },
+  "autumn_collection": {
+    "title": "Autumn Collection",
+    "desc": "Ecologically Clean Sleep Products",
+    "collections": {
+      "1": "Safari",
+      "2": "Multicolor Amethyst",
+      "3": "Shivali decoration",
+      "4": "Emerald (AB)",
+      "5": "Malachite Box",
+      "6": "Scents of Spring",
+      "7": "Falling autumn leaves (AB)",
+      "8": "Blue Breeze",
+      "9": "Blue Water",
+      "10": "Plaid"
+    }
+  },
+  "summer_collection": {
+    "title": "Summer Collection",
+    "desc": "Ecologically Clean Sleep Products",
+    "collections": {
+      "1": "Vintage Style",
+      "2": "Rocking dandelion",
+      "3": "French Riviera",
+      "4": "Dolly the Sheep",
+      "5": "Alpine plants",
+      "6": "Inspirational",
+      "7": "Green Lotus",
+      "8": "Mountain Corn",
+      "9": "Sakura Branch",
+      "10": "Olive Branch"
+    }
   }
 }

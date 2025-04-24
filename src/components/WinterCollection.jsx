@@ -2,68 +2,71 @@ import React from "react";
 import { FaRegHeart } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import { useWishlist } from "../hooks/useWishlist";
+import { useTranslation } from "react-i18next";
 
 const WinterCollection = () => {
+  const { t } = useTranslation();
+
   const winterCollection = [
     {
       id: 1,
       img: "https://www.sleepnest.uz/assets/productImg1-DUY0b_Wm.jpg",
-      title: "Kvadratchalar",
-      category: "Qishgi kolleksiya",
+      title: t("winter_collection.collections.1"),
+      category: t("categories.winter"),
     },
     {
       id: 2,
       img: "https://www.sleepnest.uz/assets/productImg2-DOPfHc9I.jpg",
-      title: "Ikat",
-      category: "Qishgi kolleksiya",
+      title: t("winter_collection.collections.2"),
+      category: t("categories.winter"),
     },
     {
       id: 3,
       img: "https://www.sleepnest.uz/assets/productImg3-BxeyfoJM.jpg",
-      title: "Davralar",
-      category: "Qishgi kolleksiya",
+      title: t("winter_collection.collections.3"),
+      category: t("categories.winter"),
     },
     {
       id: 4,
       img: "https://www.sleepnest.uz/assets/productImg4-CcK4oVXm.jpg",
-      title: "Geometriya ko'k",
-      category: "Qishgi kolleksiya",
+      title: t("winter_collection.collections.4"),
+      category: t("categories.winter"),
     },
     {
       id: 5,
       img: "https://www.sleepnest.uz/assets/productImg5-CpnXLhLk.jpg",
-      title: "Tropik barglar",
-      category: "Qishgi kolleksiya",
+      title: t("winter_collection.collections.5"),
+      category: t("categories.winter"),
     },
     {
       id: 6,
       img: "https://www.sleepnest.uz/assets/productImg6-nwrmBsNI.jpg",
-      title: "Bambi",
-      category: "Qishgi kolleksiya",
+      title: t("winter_collection.collections.6"),
+      category: t("categories.winter"),
     },
     {
       id: 7,
       img: "https://www.sleepnest.uz/assets/productImg7-CzuWUAcD.jpg",
-      title: "Vizantiya",
-      category: "Qishgi kolleksiya",
+      title: t("winter_collection.collections.7"),
+      category: t("categories.winter"),
     },
     {
       id: 8,
       img: "https://www.sleepnest.uz/assets/productImg8-Beqegxf-.jpg",
-      title: "Kechki bog'",
-      category: "Qishgi kolleksiya",
+      title: t("winter_collection.collections.8"),
+      category: t("categories.winter"),
     },
     {
       id: 9,
       img: "https://www.sleepnest.uz/assets/productImg9-DP-likxW.jpg",
-      title: "Pat Markiz",
-      category: "Qishgi kolleksiya",
+      title: t("winter_collection.collections.9"),
+      category: t("categories.winter"),
     },
     {
       id: 10,
       img: "https://www.sleepnest.uz/assets/productImg10-CJbpkbvq.jpg",
-      title: "Lavanda atirgullari",
-      category: "Qishgi kolleksiya",
+      title: t("winter_collection.collections.10"),
+      category: t("categories.winter"),
     },
   ];
 

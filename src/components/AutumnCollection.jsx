@@ -2,68 +2,71 @@ import React from "react";
 import { FaRegHeart } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import { useWishlist } from "../hooks/useWishlist";
+import { useTranslation } from "react-i18next";
 
 const AutumnCollection = () => {
+  const { t } = useTranslation();
+
   const autumnCollection = [
     {
       id: 11,
       img: "https://www.sleepnest.uz/assets/productImg11-4aXKsJZC.jpg",
-      title: "Safari",
-      category: "Kuzgi kolleksiya"
+      title: t("autumn_collection.collections.1"),
+      category: t("categories.autumn"),
     },
     {
       id: 12,
       img: "https://www.sleepnest.uz/assets/productImg12-DxA5ccVB.jpg",
-      title: "Ko'p rangli ametist",
-      category: "Kuzgi kolleksiya"
+      title: t("autumn_collection.collections.2"),
+      category: t("categories.autumn"),
     },
     {
       id: 13,
       img: "https://www.sleepnest.uz/assets/productImg12-DxA5ccVB.jpg",
-      title: "Shivali bezak",
-      category: "Kuzgi kolleksiya"
+      title: t("autumn_collection.collections.3"),
+      category: t("categories.autumn"),
     },
     {
       id: 14,
       img: "https://www.sleepnest.uz/assets/productImg14-DDwESftW.jpg",
-      title: "Zumrad (AB)",
-      category: "Kuzgi kolleksiya"
+      title: t("autumn_collection.collections.4"),
+      category: t("categories.autumn"),
     },
     {
       id: 15,
       img: "https://www.sleepnest.uz/assets/productImg15-Bu3C84nj.jpg",
-      title: "Malaxit qutisi",
-      category: "Kuzgi kolleksiya"
+      title: t("autumn_collection.collections.5"),
+      category: t("categories.autumn"),
     },
     {
       id: 16,
       img: "https://www.sleepnest.uz/assets/productImg16-CrmeMFF3.jpg",
-      title: "Bahorning hidlari",
-      category: "Kuzgi kolleksiya"
+      title: t("autumn_collection.collections.6"),
+      category: t("categories.autumn"),
     },
     {
       id: 17,
       img: "https://www.sleepnest.uz/assets/productImg17-DYqc_VJQ.jpg",
-      title: "Kuzgi barglar tushishi (AB)",
-      category: "Kuzgi kolleksiya"
+      title: t("autumn_collection.collections.7"),
+      category: t("categories.autumn"),
     },
     {
       id: 18,
       img: "https://www.sleepnest.uz/assets/productImg18-DuuQsd8S.jpg",
-      title: "Moviy shabada",
-      category: "Kuzgi kolleksiya"
+      title: t("autumn_collection.collections.8"),
+      category: t("categories.autumn"),
     },
     {
       id: 19,
       img: "https://www.sleepnest.uz/assets/productImg19-p6tq_Bf2.jpg",
-      title: "Moviy suv",
-      category: "Kuzgi kolleksiya"
+      title: t("autumn_collection.collections.9"),
+      category: t("categories.autumn"),
     },
     {
       id: 20,
       img: "https://www.sleepnest.uz/assets/productImg20-CerQyIaR.jpg ",
-      title: "Plaid",
-      category: "Kuzgi kolleksiya"
+      title: t("autumn_collection.collections.10"),
+      category: t("categories.autumn"),
     },
   ];
 
